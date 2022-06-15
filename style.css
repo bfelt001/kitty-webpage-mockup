@@ -1,0 +1,138 @@
+body {
+    font-family: sans-serif;   
+}
+a {
+    color: rgb(35,154,185);
+    font-style: none;
+    text-decoration:none;
+}
+
+header {
+    background-color: rgb(35,154,185);
+    padding: 2rem 30rem 2rem 6rem;
+}
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+header h2 {
+   
+    display: flex;
+    font-weight: 400;
+    flex-wrap: wrap;
+    padding-right: 18rem;
+    
+}
+.navigation {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: flex-start;
+    gap: 5px;
+    list-style-type: none;
+}
+.space {
+    list-style: '';
+    padding: 10px;
+} 
+.slash {
+    list-style: '/';
+    padding: 10px;
+}  
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}  
+.box {
+    width: 75%;
+    height: 100vh;
+    padding: 2rem 2rem 2rem 6rem;
+  }
+  
+.box1 {
+    width:25%;
+    padding: 2rem 6rem 2rem 2rem;
+  }
+
+nav {
+    background-color: rgb(235,235,235);
+    padding: .3rem 3rem;
+}
+nav>ul>li>a {
+    color: rgb(58,58,58);
+    font-weight: 800;
+}
+
+.block{
+    color: rgb(35,154,185);
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 3rem 0;
+    margin: 0;
+}
+p  {
+    color: rgb(58,58,58);
+    line-height: 1.4rem;
+}
+aside{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    background-color: rgb(58,58,58);
+    color: white;
+    padding: 4rem 0rem;
+    text-align: center;
+
+}
+footer p {
+    text-align: center;
+    margin: 0 20rem;
+    display: flex;
+    justify-content: left;
+}
+footer nav {
+    background-color: rgb(58,58,58);
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.white-text {
+    color: white;
+}
+
+.footer-links {
+    font-size: 1em;
+}
+
+figure {
+    margin: 0;
+}
+
+figure>img{ 
+    width: 100%;
+  height: auto;
+}
+figcaption {
+    padding-bottom: 10px;
+}
+
+img {
+    width: 250px; 
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+@media all and (max-width: 800px){
+    footer p {
+        text-align: center;
+        margin: 0;
+        display: flex;
+        justify-content: left;
+}}
